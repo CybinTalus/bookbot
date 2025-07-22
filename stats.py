@@ -33,20 +33,3 @@ def sorter(file):
         if letter["char"].isalpha():
             print(f"{letter['char']}: {letter['num']}") # Print the list dictionary, in the style of 'char': 'num'
     print("============= END ===============")
-
-
-# def sorter(file):
-#     word_count = word_counter(file)
-#     letter_count = letter_counter(file)
-#     # letter_count.sort(reverse=True, key=dict_sorter)
-#     for letter in letter_count:
-#         if letter.isalpha() == True:
-#             print(letter)
-
-# def sorter(file):
-#     print("============ BOOKBOT ============")
-#     print(f"Analyzing book found at {file}...")
-#     print("----------- Word Count ----------")
-#     print(f"Found {word_counter(file)} total words")
-#     print("--------- Character Count -------")
-    

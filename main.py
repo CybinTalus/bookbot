@@ -11,10 +11,6 @@ def get_book_text(file):
 
     
 def main():
-    # get_book_text(filepath)
-    # word_counter(filepath)
-    # letter_counter(filepath)
-    # sorter(filepath)
     if len(sys.argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
